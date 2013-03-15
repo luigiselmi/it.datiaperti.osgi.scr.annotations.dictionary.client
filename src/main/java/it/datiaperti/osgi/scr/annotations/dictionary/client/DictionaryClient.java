@@ -17,6 +17,10 @@ import it.datiaperti.osgi.scr.annotations.dictionary.service.api.DictionaryServi
 @Component
 public class DictionaryClient {
   
+  /*
+   * The service reference is injected through the constructor 
+   * (Constructor Dependency Injection pattern)
+   */
   @Reference
   private DictionaryService service;
 
@@ -36,17 +40,6 @@ public class DictionaryClient {
   
   }
   
-  protected void bindService(DictionaryService service) {
-	  
-	  this.service = service;
-	  
-  }
-  
-  protected void unbindService(DictionaryService service) {
-	  
-	  this.service = null;
-	  
-  }
   
   private void checkWords() {
 	  
