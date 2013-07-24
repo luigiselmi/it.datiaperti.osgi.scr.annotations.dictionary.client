@@ -3,6 +3,7 @@
   <groupId>it.datiaperti.osgi.scr.anotations</groupId>
   <artifactId>dictionary.client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <name>Dictionary Client</name>
   <packaging>bundle</packaging>
   <description>A client that uses a dictionary service based on SCR Annotations to check words.</description>
   <build>
