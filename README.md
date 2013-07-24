@@ -1,4 +1,4 @@
-OSGi SCR Dictionary Client
+OSGi SCR Annotations Dictionary Client
 ============================================
 
 This is an example implemetation of a OSGi bundle that provides a client for the service available in the project
